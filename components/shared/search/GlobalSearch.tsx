@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import { Input } from "@/components/ui/input";
@@ -10,13 +12,14 @@ const GlobalSearch = () => {
           src="/assets/icons/search.svg"
           alt="search"
           width={24}
-          height={23}
+          height={24}
           className="cursor-pointer"
         />
         <Input
           type="text"
           placeholder="Search globally"
           value=""
+          onChange={() => {}}
           className="paragraph-regular no-focus placeholder background-light800_darkgradient border-none shadow-none outline-none"
         />
       </div>

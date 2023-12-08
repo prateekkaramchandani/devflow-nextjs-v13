@@ -45,7 +45,6 @@ export default function RootLayout({
         <html lang="en">
           <body className={`${inter.variable} ${spaceGrotesk.variable}`}>
             {children}
-            <p className="h1-bold">This is a piece of text</p>
           </body>
         </html>
       </ClerkProvider>
